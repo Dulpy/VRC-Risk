@@ -1,0 +1,58 @@
+{
+  "dataset": "VRC-Risk",
+  "release_type": "final derived data only",
+  "episode_count": 3036,
+  "window_protocol": {
+    "window_size_frames": 50,
+    "history_frames": 30,
+    "future_frames": 20,
+    "stride_frames": 50,
+    "scene_level_split_ready": true
+  },
+  "counts": {
+    "normal": 46,
+    "communication_delay": 138,
+    "packet_loss": 460,
+    "state_manipulation": 184,
+    "compound_risk": 2208
+  },
+  "files": {
+    "normal": "data/normal_v2xsim2_23scenes_stride50_h30_f20.json.gz",
+    "communication_delay": "data/communication_delay.json.gz",
+    "packet_loss": "data/packet_loss.json.gz",
+    "state_manipulation": "data/state_manipulation.json.gz",
+    "compound_v1": "data/compound_v1.json.gz",
+    "compound_extended": "data/compound_extended.json.gz",
+    "compound_phase2": "data/compound_phase2.json.gz"
+  },
+  "selected_scenes": [
+    "scene_5",
+    "scene_9",
+    "scene_21",
+    "scene_34",
+    "scene_35",
+    "scene_36",
+    "scene_37",
+    "scene_38",
+    "scene_42",
+    "scene_45",
+    "scene_49",
+    "scene_50",
+    "scene_51",
+    "scene_52",
+    "scene_59",
+    "scene_65",
+    "scene_73",
+    "scene_79",
+    "scene_85",
+    "scene_86",
+    "scene_89",
+    "scene_97",
+    "scene_98"
+  ],
+  "notes": [
+    "Derived benchmark data only.",
+    "Raw V2X-Sim sensor data is not included.",
+    "Paths are repository-relative."
+  ]
+}
